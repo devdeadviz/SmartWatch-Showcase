@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+#outer {
+    display: table-cell;
+    margin: 3%;
+    position: relative;
+}
+
+.Time {
+    position: absolute;
+    top: 236px;
+    left: 188.5px;
+    color: white;
+    text-align: center;
+    font-size: 2.1em;
+    visibility: visible;
+}
+
+#outer img {
+    float: left;
+}
+
+#outer #heart {
+    position: absolute;
+    top: 40%;
+    left: 18%;
+    width: 50px;
+    height: 50px;
+    animation: beat 5s linear 0s infinite alternate;
+    visibility: hidden;
+}
+
+@keyframes beat {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.25);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    75% {
+        transform: scale(1.25);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+#outer #heartRate {
+    position: absolute;
+    top: 52%;
+    left: 18%;
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    color: #FFF;
+    font-weight: 600;
+    text-align: center;
+    visibility: hidden;
+}
+
+#btn1 {
+    width: 3.5em;
+    height: 2.4em;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 0.3em;
+}
+
+#btn2 {
+    width: 3.5em;
+    height: 2.4em;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 0.3em;
+}
+
+#btn3 {
+    width: 3.5em;
+    height: 2.4em;
+    cursor: pointer;
+    background-color: purple;
+    border-radius: 0.3em;
+}
+
+#btn4 {
+    width: 3.5em;
+    height: 2.4em;
+    cursor: pointer;
+    background-color: pink;
+    border-radius: 0.3em;
+}
+
+#top {
+    margin-top: 3em;
+}
+
+#timeBtn {
+    height: 2em;
+    width: 6em;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+
+#heartBtn {
+    height: 2em;
+    width: 6em;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+
+#buy {
+    margin-top: 1.5em;
+    background-color: orange;
+    height: 3.1em;
+    width: 8em;
+    font-family: 'Monsterrat Medium';
+    font-weight: bold;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+
+p {
+    color: gray;
+    font-weight: bold;
+}
